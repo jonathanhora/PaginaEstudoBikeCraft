@@ -1,0 +1,112 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f7f7f7;;
+    margin: 0px;
+    display: grid;
+    gap: 60px;
+    justify-items: center;
+    margin-top: 60px;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    background: white;
+    padding: 15px 30px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.composicao{
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.detalhe{
+    width: 60px;
+    height: 4px;
+    background: #ee2211;
+    position: absolute;
+    top:30px;
+    right: -30px;
+}
+
+.descricao{
+    background: white;
+    padding: 40px;
+    text-align: right;
+    position: relative;
+    display: grid;
+    gap: 20px;
+    align-content: center;
+    justify-items: end;
+}
+
+.vermais{
+    background: #ee2211;
+    color: white;    
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.imgbicicleta{
+    width: 500px;
+}
+
+.subtitulo{
+    font-size: 64px;
+    text-transform: uppercase;
+    color:rgba(0, 0, 0, 0.2);
+    text-align: right;
+    padding: 40px;
+    align-self: center; 
+}
+
+.dadosbike{
+    background: white;
+    padding: 40px;
+}
+
+.dados_descricao{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px 20px;
+    padding: 20px;
+}
+
+.dados_descricao p{
+    grid-area:  2/2;
+}
+
+
+footer{
+    text-align: center;
+    background: #fff;
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+}
